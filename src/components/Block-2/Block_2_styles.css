@@ -1,0 +1,5 @@
+.block-2 {
+    background:
+            url("../../assets/block-2_logo.svg") no-repeat right top / 45% auto,
+            url("../../assets/block-2_bg.webp") no-repeat center center / cover;
+}

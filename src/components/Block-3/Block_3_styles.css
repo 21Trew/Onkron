@@ -1,0 +1,49 @@
+.block-3 {
+    background: url("../../assets/block-3_bg.webp") no-repeat center center / cover;
+    color: white;
+    padding-top: clamp(3rem, 9vw, 6rem);
+    padding-right: clamp(3rem, 9vw, 6rem);
+}
+
+.block-3__mobile {
+    padding-right: clamp(1rem, 4vw, 1.2rem);
+}
+
+.block-3__right {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+    gap: 5vw;
+    width: 20%;
+}
+
+.block-3__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.block-3__svg-top {
+    width: clamp(3rem, 8vw, 3.5rem);
+    height: clamp(3rem, 8vw, 3.5rem);
+}
+
+.block-3__svg-bottom {
+    width: clamp(3rem, 10vw, 6rem);
+    height: clamp(3rem, 10vw, 6rem);
+}
+
+.block-3__title {
+    font-size: clamp(2rem, 6vw, 3rem);
+}
+
+.block-3__mobile .block-3__title {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+}
+
+.block-3__description {
+    font-size: clamp(1rem, 4vw, 1.5rem);
+}
+
+.block-3__mobile .block-3__description {
+    font-size: clamp(0.8rem, 3vw, 1rem);
+}

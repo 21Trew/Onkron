@@ -1,0 +1,11 @@
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+}
+
+.block {
+  height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+}

@@ -1,0 +1,75 @@
+.block-5 {
+    display: flex;
+    gap: 0.5%;
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.block-5__left {
+    position: relative;
+    background: url("../../assets/block-5__bg-left.png") no-repeat center center / cover;
+    flex-basis: 43%;
+}
+
+.block-5__mobile .block-5__left {
+    flex-basis: 35%;
+}
+
+.block-5__right {
+    position: relative;
+    background: url("../../assets/block-5__bg-right.png") no-repeat center center / cover;
+    flex-basis: 57%;
+}
+
+.block-5__mobile .block-5__right {
+    flex-basis: 65%;
+}
+
+.block-5__bottom-text {
+    position: absolute;
+    left: 3rem;
+    bottom: 2rem;
+}
+
+.block-5__bottom-left {
+    font-size: 1.5vw;
+}
+
+.block-5__mobile .block-5__bottom-left {
+    font-size: 2vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.block-5__bottom-right {
+    font-size: 3vw;
+}
+
+.block-5__mobile .block-5__bottom-right {
+    font-size: 4vw;
+}
+
+.block-5__center {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    right: 53%;
+    transform: translateY(-50%);
+}
+
+.block-5__center-arrows {
+    width: 7vw;
+    height: 4vw;
+    background: url("../../assets/block-5__arrows.svg") no-repeat center center / cover;
+    align-self: flex-end;
+}
+
+.block-5__center-numbers {
+    font-size: clamp(1rem, 7vw, 6.5rem);
+}
+
+.block-5__center-text {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}

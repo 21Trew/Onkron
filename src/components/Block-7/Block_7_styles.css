@@ -1,0 +1,23 @@
+.block-7 {
+    background: url("../../assets/block-7_bg.webp") no-repeat center center / cover;
+    color: white;
+    padding: clamp(1rem, 2.5vh, 1.5rem) clamp(1rem, 2.5vw, 1.5rem);
+}
+
+.block-7__cta {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+    width: 46%;
+}
+
+.block-7__cta-title {
+    font-size: clamp(1em, 4.5vw, 4.5rem);
+    word-break: break-word;
+}
+
+.block-7__cta-text {
+    font-size: clamp(5vw, 8vw, 8rem);
+    line-height: 0.95;
+    word-break: break-word;
+}
